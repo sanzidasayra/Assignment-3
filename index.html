@@ -23,6 +23,7 @@
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/79cbfb14e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 
     <style>
 
@@ -42,11 +43,11 @@
     </style>
 
 </head>
-<body>
+<body class="overflow-x-hidden">
     
-    <header class="">
+    <header>
 
-        <nav class="sora-font bg-[#FFF9F4]  ">
+        <nav class="sora-font bg-[#FFF9F4] ">
                     <div class="md:container mx-auto  ">
 
             <div class="navbar ">
@@ -61,14 +62,14 @@
                     <li><a>Contact us</a></li>
                   </ul>
                 </div>
-                <div class="navbar-end flex gap-3 lg:inline hidden">
+                <div class="navbar-end lg:flex gap-3 hidden">
                     <i class="fa-regular fa-bell"></i>
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <a class= "btn btn-outline btn-warning py-2 px-7 " href="">Login</a>
                   <a class="bg-[#FFDC26] hover:bg-yellow-500 py-3 px-7 rounded-lg ">Register</a>
                 </div>
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+                    <div tabindex="0" role="button" class="btn btn-ghost pl-40 lg:hidden ">
                       <svg
                        xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -94,10 +95,10 @@
         </nav>
 
             <section class="md:container mx-auto">
-                <div class="lg:flex mt-24 ">
-                <div>
-                    <h1 class="adlam-display-font lg:text-6xl text-3xl pb-4 transform  transition duration-300 hover:scale-105">Pamper Your Pet, <br> Because They Deserve the Best</h1>
-                    <p class="sora-font lg:text-xl text-lg pb-6">Discover a world of treats, toys, and essentials handpicked <br> for your furry friends. Shop now and make tails wag with joy!</p>
+                <div class="lg:flex lg:mt-24 mt-8 ">
+                <div class="pl-4 lg:pl-0">
+                    <h1 class="adlam-display-font lg:text-6xl text-3xl pb-4 transform  transition duration-300 hover:scale-105 ">Pamper Your Pet, <br> Because They Deserve the Best</h1>
+                    <p class="sora-font lg:text-xl text-lg pb-6 ">Discover a world of treats, toys, and essentials handpicked <br> for your furry friends. Shop now and make tails wag with joy!</p>
                     <button class="sora-font bg-[#FFDC26] hover:bg-yellow-500 text-xl py-3 px-7 rounded-lg transform  transition duration-300 hover:scale-105"">Find a pet</button>
                 </div>
                 <div>
@@ -112,9 +113,9 @@
     <main class=" ">
         <section class="md:container mx-auto">
         <div>
-            <h1 class="adlam-display-font text-4xl mt-24 mb-12">Browse By Categories</h1>
+            <h1 class="adlam-display-font lg:text-4xl text-3xl lg:mt-24 mt-14 mb-12 pl-4 lg:pl-0">Browse By Categories</h1>
         </div>
-        <div class=" lg:flex gap-16 mb-32 columns-2">
+        <div class=" lg:flex lg:gap-16 lg:mb-32 mb-0 grid grid-cols-2 p-4 lg:p-0 gap-2">
             <div class="border border-[#F9DF8A] bg-[#F9DF8A] w-fit rounded-xl transform  transition duration-300 hover:scale-105" >
                 <div class="bg-white rounded-full mt-8 mb-6 mx-12">
                 <img class="p-7" src="./c1-assets/dog-cartoon.png" alt="">
@@ -170,24 +171,23 @@
         </div>
     </section>
 
-            <section class="bg-[#FFF9F4] ">
+            <section class="lg:bg-[#FFF9F4] ">
                 <div class="md:container mx-auto">
-                <div class="pt-36 mb-12">
-                    <h1 class="adlam-display-font text-4xl">Trending Pet Products</h1>
+                <div class="lg:pt-36 pt-14 lg:mb-12 mb-8">
+                    <h1 class="adlam-display-font lg:text-4xl text-3xl pl-4 lg:pl-0 ">Trending Pet Products</h1>
                 </div>
         
-                <div class="flex gap-14 pb-32">
-                    <div class="border border-[#F9DF8A] bg-[#F9DF8A] rounded-2xl  w-fit transform  transition duration-300 hover:scale-105 
-                    ">
-                        <h1 class="adlam-display-font text-3xl pt-12 pl-8 pb-5">T-Shirt For Dogs</h1>
-                        <p class="sora-font text-lg pb-5 pl-8">Discover a world of treats, toys, and <br> essentials handpicked for</p>
-                        <button class="sora-font bg-white text-xl py-3 px-7 rounded-lg ml-8">Shop Now</button>
+                <div class="lg:flex grid grid-cols-1 gap-14 pb-32 p-4 lg:p-0 ">
+                    <div class="border border-[#F9DF8A] bg-[#F9DF8A] rounded-2xl w-fit transform transition duration-300 hover:scale-105 ">
+                        <h1 class="adlam-display-font lg:text-3xl text-2xl pt-12 pl-8 pb-5">T-Shirt For Dogs</h1>
+                        <p class="sora-font lg:text-lg text-md pb-5 pl-8">Discover a world of treats, toys, and <br> essentials handpicked for</p>
+                        <button class="sora-font bg-white lg:text-xl text-md py-3 px-7 rounded-lg ml-8">Shop Now</button>
                         <div class="relative -top-20 -mb-20">
-                        <img class="ml-48 mr-10" src="./c1-assets/cute-pet-mid.png" alt="">
+                        <img class="lg:ml-48 ml-44 mr-10 lg:w-[full] w-[200px] " src="./c1-assets/cute-pet-mid.png" alt="">
                     </div>
                     </div>
 
-                    <div class="grid grid-cols-3 gap-9">
+                    <div class="grid lg:grid-cols-3 grid-cols-2 lg:gap-9 ">
                         <div class="border border-gray-300 w-fit rounded-xl">
                         <div class="flex gap-4 ">
                             <div class="bg-red-50  my-4 ml-4 rounded-xl ">
@@ -363,7 +363,7 @@
 
             <section>
                 <div class="md:container mx-auto">
-                    <h1 class=" adlam-display-font lg:text-6xl text-2xl mt-20 mb-20">Frequently Asked <span class="text-[#FFDC26]">Questions</span></h1>
+                    <h1 class=" adlam-display-font lg:text-6xl text-2xl mt-20 mb-20">Frequently Asked <span class="text-[#FFDC26]">Questions</span><span class="animation">!</span></h1>
                 </div>
                 <div class="md:container mx-auto">
                     <div class="flex justify-between lg:flex-row flex-col  ">
@@ -493,7 +493,7 @@
                 <img src="./c1-assets/logo-footer.png" alt="">
                 <h1 class="sora-font text-2xl pt-2">Browse4Pets</h1>
             </div>
-               <p class="sora-font text-xl ">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+               <p class="sora-font text-xl mt-6 ">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
             </div>
             <div class="pt-80 pl-16">
               <h6 class="sora-font text-xl">Find a pet</h6>
@@ -502,6 +502,7 @@
             </div>
             <div  class="pl-[625px]">
               <h6 class="sora-font text-lg pt-[380px] ">Follow Us</h6>
+              
   <!-- testing new device -->
               <div class="grid grid-flow-col gap-4 ">
 

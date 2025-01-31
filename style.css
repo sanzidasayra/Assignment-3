@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+
+.animation {
+        display: inline-block;
+        opacity: 0;
+        animation: fadeInOut 2s infinite;
+    }
+
+    @keyframes fadeInOut {
+        0%, 100% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+
